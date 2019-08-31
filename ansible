@@ -1,0 +1,7 @@
+---
+- hosts: 172-31-2-202
+  tasks:
+     - name: install a package on tomcat server.
+       yum:
+         name: httpd
+         state: present
